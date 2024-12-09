@@ -12,13 +12,13 @@
 
 如果你想运行在：
 单机单卡：
-cd ./bce_text/main-end2end
+cd ./bce_text/main-end2end  
 python main.py
 
 DP单机双卡：
-cd ./bce_text/DP_2gpu
+cd ./bce_text/DP_2gpu  
 torch.distributed.launch --nproc_per_node=2 main.py
 
 DDP单机双卡：
-cd ./bce_text/DDP_2gpu
+cd ./bce_text/DDP_2gpu  
 torch.distributed.launch --nproc_per_node=2 main.py
