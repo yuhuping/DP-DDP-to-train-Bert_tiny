@@ -10,7 +10,7 @@
 ！！！ 运行前请讲main.py中bert_model_load路径设置为你的模型文件夹绝对路径 ！！！
 
 
-如果你想运行在：
+如果你想运行在：  
 单机单卡：
 cd ./bce_text/main-end2end  
 python main.py
